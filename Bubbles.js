@@ -1,3 +1,6 @@
+// bubble homework 1
+// Xinjia Pang
+
 var bubbles = [];
 
 function setup() {
