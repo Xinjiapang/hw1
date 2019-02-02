@@ -30,7 +30,7 @@ function draw() {
         var bubble = bubbles[i];
 
         if (dist(mouseX, mouseY, bubble.x, bubble.y) < bubble.radius) {
-            fill(0, 200, 200, 400);
+            fill(0, 200, 200, 255);
         } else {
             fill(255, 0, 100, 100);
         }
