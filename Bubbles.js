@@ -33,6 +33,9 @@ function draw() {
         var bubble = bubbles[i];
 
         if (dist(mouseX, mouseY, bubble.x, bubble.y) < bubble.radius) {
+            if (mouseIsPressed) {
+                bubbles.splice(i, 1); // remove this bubble
+            }
             fill(0, 200, 200, 255); // change color to green
         } else {
             fill(255, 0, 100, 100); // bubble will be pink without mouse.
